@@ -1,0 +1,22 @@
+.bloco{
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    background-image: url(imagens/wallpaper003.jpg);
+}
+#q1{
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+#q2{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+#q3{
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#q4{
+    background-position: center center;
+    background-repeat: no-repeat;
+}

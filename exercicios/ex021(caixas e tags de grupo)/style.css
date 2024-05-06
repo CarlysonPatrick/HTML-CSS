@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 10px solid  lightgreen;
+    
+    padding: 10px 20px;
+    
+    margin: auto;
+
+}
+a{
+    border: 10px;
+    border-color: yellowgreen;
+    border-style: dotted;
+}
+a:hover{
+    color: blueviolet;
+}
