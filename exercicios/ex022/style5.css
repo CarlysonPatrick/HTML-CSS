@@ -1,12 +1,19 @@
 body{
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    
+    /* Sequencia da shorthand do background
+    color > image > position > repeat > size* > attechment 
+    *sobre o size, a regra na w3c diz que ele pode ser aplicado, porém ainda nao funciona na linha de codigo. tem q ser digitado abaixo manualmente.
+    */
 
+    background: black url(imagens/wallpaper002.jpg) center center  no-repeat fixed;
+    background-size: cover;
 }
 main{
     background-color: white;
