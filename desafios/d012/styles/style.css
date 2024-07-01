@@ -5,6 +5,7 @@
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
     --font3: 'Sriracha', cursive;
+    --corfonte: rgba(0, 0, 0, 0.801)
 }
 * {
     margin: 0px;
@@ -41,18 +42,35 @@ section{
     font-family: var(--font3);
     font-size: 1.5em;
 }
+section p{
+    padding-bottom: 1.5em;
+    text-shadow: 1.2px 1.2px 0 black;
+}
 a:hover{
     text-decoration: underline;
 }
+#fundo1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+#fundo2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
 .normal{
     background-color: lightgrey;
+    color: var(--corfonte)
 }
 .imagem{
     background-color: lightskyblue;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.692);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .imagem p{
     background-color: rgba(0, 0, 0, 0.63);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     color: white;
 }
 footer{
@@ -60,4 +78,5 @@ footer{
     text-align: center;
     color: white;
     padding: 5px;
+    font-size: 0.9em;
 }
