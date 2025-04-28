@@ -6,6 +6,26 @@
     <title>Form</title>
 </head>
 <body>
-    <main></main>
+    <main>
+        <h1>Formulario de e-mail e telefone</h1>
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" placeholder="joao@gmail.com" required>
+                </p>
+                <p>
+                <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" pattern="^[0-9]{4}-[0-9]{4}$" required>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </fieldset>
+        </form>
+        <!-- Estudar mais sobre RegEx -->
+    </main>
 </body>
 </html>
