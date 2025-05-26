@@ -6,9 +6,42 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="" method="get">
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="post">
         <p>
-            
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="JOG">Jogador</option>
+                <option value="MED">Médico</option>
+                <option value="ADV">Advogado</option>
+            </datalist>
+        </p>
+        <!-- Na lista aparece o value, se optar por nao mostrar essa informação, remover o campo value e deixar apenas o option -->
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="40" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
