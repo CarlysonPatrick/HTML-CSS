@@ -26,7 +26,7 @@
         }
         /* declarações paisagem */
         @media screen and (orientation: landscape) {
-             body{
+            body{
                 background: url(../imagens/cev-landscape.jpg);
                 background-position: left bottom;
             }
