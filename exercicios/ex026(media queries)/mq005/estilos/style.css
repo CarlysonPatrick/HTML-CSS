@@ -32,8 +32,17 @@ header a:hover{
     background-color: gray;
     transition-duration: 0.5s;
 }
-menu{
+nav{
     display: none;
+    background-color: rgba(128, 128, 128, 0.63);
+}
+#itens {
+    display: none;
+    background-color: rgba(128, 128, 128, 0.63);
+}
+
+#itens.ativo {
+    display: block;
 }
 #burguer{
     background-color: rgb(75, 75, 75);
