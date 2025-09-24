@@ -32,6 +32,21 @@ header a:hover{
     background-color: gray;
     transition-duration: 0.5s;
 }
+menu{
+    display: none;
+}
+#burguer{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
 main{
     width: 90vw;
     background-color: rgb(255, 255, 255);
