@@ -32,7 +32,7 @@ header a:hover{
     background-color: gray;
     transition-duration: 0.5s;
 }
-nav{
+menu{
     display: none;
     background-color: rgba(128, 128, 128, 0.63);
 }
